@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "longerelytraflight",
+  "version": "${version}",
+  "name": "longerelytraflight",
+  "description": "",
+  "authors": [
+    "EpicPlayerA10"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/longerelytraflight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.epicplayera10.longerelytraflight.client.LongerelytraflightClient"
+    ]
+  },
+  "mixins": [
+    "longerelytraflight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
